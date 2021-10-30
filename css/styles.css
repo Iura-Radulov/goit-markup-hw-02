@@ -131,8 +131,8 @@ a {
   line-height: 1.62;
   text-align: center;
 }
-.portfolio-button .portfolio-button-item:hover,
-.portfolio-button .portfolio-button-item:focus {
+.portfolio-button [type="button"]:hover,
+.portfolio-button [type="button"]:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
