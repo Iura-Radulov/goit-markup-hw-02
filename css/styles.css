@@ -31,13 +31,14 @@ a {
 .logo .accent {
   color: var(--accent-color);
 }
-.navigation {
+.navigation a {
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
-.navigation:hover,
-.navigation:focus {
+.navigation a:hover,
+.navigation a:focus {
   color: var(--accent-color);
 }
 .adress-link {
@@ -51,7 +52,9 @@ a {
   color: var(--accent-color);
 }
 .hero {
+  /* временно пока нет фона*/
   background-color: #000000;
+
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -99,7 +102,9 @@ a {
   text-align: center;
 }
 .footer > .logo {
+  /* временно пока нет фона*/
   background-color: var(--primary-text-color);
+
   color: var(--primary-white-color);
 }
 .adress {
@@ -108,9 +113,39 @@ a {
   line-height: 1.71;
 }
 .adress-place {
+  /* временно пока нет фона*/
+  background-color: var(--primary-text-color);
+
   color: var(--primary-white-color);
 }
 .adress-mail,
 .adress-tel {
   color: var(--secondary-text-color);
+}
+
+/* Portfolio*/
+.portfolio-button {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.portfolio-button .portfolio-button-item:hover,
+.portfolio-button .portfolio-button-item:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.project a {
+  color: var(--primary-text-color);
+}
+.project h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.project p {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
