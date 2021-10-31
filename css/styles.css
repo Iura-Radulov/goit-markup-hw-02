@@ -23,6 +23,7 @@ a {
 }
 
 .logo {
+  color: var(--primary-text-color);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -71,6 +72,10 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
 }
 .feature {
   font-weight: 700;
